@@ -149,6 +149,11 @@ body {
   display: inline-block;
   padding: 0 10px;
 }
+@media only screen and (max-width: 767px) {
+  .buttonWrap .pointWrap {
+    padding: 0;
+  }
+}
 .buttonWrap .pointWrap li {
   position: relative;
   display: inline-block;
@@ -160,6 +165,12 @@ body {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   transition: background-color 0.3s ease-out;
+}
+@media only screen and (max-width: 767px) {
+  .buttonWrap .pointWrap li {
+    width: 2.778vw;
+    height: 2.778vw;
+  }
 }
 .buttonWrap .pointWrap li:hover, .buttonWrap .pointWrap li.active {
   background-color: rgba(0, 0, 0, 0.1);
