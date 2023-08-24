@@ -32,7 +32,7 @@ body {
 }
 @media only screen and (max-width: 767px) {
   .contentWrap .album {
-    top: 40%;
+    top: 53%;
     width: 70.333vw;
     height: 70.333vw;
   }
@@ -139,6 +139,12 @@ body {
   color: #fff;
   font-weight: 500;
   transition: background-color 0.3s ease-out, color 0.3s ease-out;
+}
+@media only screen and (max-width: 767px) {
+  .buttonWrap button {
+    padding: 0.833vw 2.778vw;
+    font-size: 3.889vw;
+  }
 }
 .buttonWrap button:hover {
   background-color: rgba(255, 255, 255, 0.4392156863);
