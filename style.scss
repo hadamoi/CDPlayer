@@ -36,8 +36,8 @@ body {
 
     @media #{$mobile} {
       top: 40%;
-      width: 83.333vw;
-      height: 83.333vw;
+      width: 70.333vw;
+      height: 70.333vw;
     }
 
     &.active {
@@ -51,7 +51,7 @@ body {
       }
 
       @media #{$mobile}{
-        left: 45%;
+        left: 43%;
 
         .disk {
           left: 35%;
@@ -72,8 +72,8 @@ body {
       }
 
       @media #{$mobile} {
-        width: 69.444vw;
-        height: 69.444vw;
+        width: 63.444vw;
+        height: 63.444vw;
       }
     }
 
@@ -90,8 +90,8 @@ body {
       animation: rotateCD 10s ease infinite;
 
       @media #{$mobile} {
-        width: 67.778vw;
-        height: 67.778vw;
+        width: 60.778vw;
+        height: 60.778vw;
       }
 
       .disk_inner {
